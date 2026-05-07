@@ -21,3 +21,6 @@ After preparing the preprocessed point clouds, put it in the data folder. Then s
 python train.py
 ```
 
+## Biophysical parameter estimation
+
+In the traditional forest inventory, the biophysical parameters should also be recorded. Here, we employ a geometry-based method to retrieve DBH、CD、etc from the extracted point clouds in the last step.
